@@ -210,6 +210,63 @@
             }
         },
         {
+            "Key": "65bec668-f5e0-4240-b030-8502b60d4a6a",
+            "Value": {
+                "id": "ed66b5b1-56bc-4cbb-83af-4356b625c6f4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_keyboard_controller\/obj_keyboard_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8a34167a-aa69-4706-a757-023b06b6e30e",
+            "Value": {
+                "id": "c5b51a9b-f92a-45f4-9419-4838ffe7d37d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/recognize_letter\/recognize_letter.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9a53372a-5523-441d-8f8c-3b562bf71ab8",
+            "Value": {
+                "id": "80ea17f9-b21a-45e1-a5c7-b6fcdfc59f16",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "fonts\/font_chunk\/font_chunk.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "7b72da9f-008a-41d0-87a3-fd079d405785",
@@ -420,7 +477,7 @@
         }
     ],
     "script_order": [
-        
+        "8a34167a-aa69-4706-a757-023b06b6e30e"
     ],
     "tutorial": ""
 }

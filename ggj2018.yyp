@@ -39,6 +39,25 @@
     },
     "resources": [
         {
+            "Key": "046310b8-341f-431e-acf1-620b6851f700",
+            "Value": {
+                "id": "148385e0-45c1-4775-9cf8-ac8199037c01",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_player_walk_up\/spr_player_walk_up.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "114ea181-bd00-41c9-9572-ec101c0e859a",
             "Value": {
                 "id": "171edc6e-1c2a-49eb-b5ca-4461027d5e2f",

@@ -6,6 +6,7 @@ if (!ds_queue_empty(transmission_queue)) {
 	switch (letter) {
 		case up:
 			new_y = y - step_y;
+			sprite_index = spr_player_walk_up;
 			break;
 		case down:
 			new_y = y + step_y;

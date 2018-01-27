@@ -13,7 +13,7 @@ default_letter_lockout_time = 20;
 current_letter_lockout_time = 0;
 
 player = instance_find(obj_player, 0);
-text_x_offset = 10;
+text_x_offset = 0;
 text_y_offset = 20;
 letter_to_transmit_to_player = noone;
 

@@ -1,6 +1,6 @@
 
 {
-    "name": "room0",
+    "name": "levelRoom",
     "id": "b37bb8c0-fee1-42f3-a8af-f99161c5d944",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
@@ -30,8 +30,8 @@
             "m_parentID": "00000000-0000-0000-0000-000000000000",
             "m_serialiseFrozen": false,
             "modelName": "GMRTileLayer",
-            "prev_tileheight": 16,
-            "prev_tilewidth": 16,
+            "prev_tileheight": 128,
+            "prev_tilewidth": 128,
             "mvc": "1.0",
             "tiles": {
                 "SerialiseData": null,

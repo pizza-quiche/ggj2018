@@ -5,7 +5,7 @@ current_key_press_steps = 0;
 message_queue = ds_queue_create();
 message_queue_max_size = 4;
 
-default_time_to_live = 50;
+default_time_to_live = 25;
 current_time_to_live = 0;
 
 display_string = "";

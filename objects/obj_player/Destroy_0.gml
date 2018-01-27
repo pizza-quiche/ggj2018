@@ -1,0 +1,2 @@
+ds_queue_empty(transmission_queue);
+ds_queue_destroy(transmission_queue);

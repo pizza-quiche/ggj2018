@@ -12,6 +12,11 @@ display_string = "";
 default_letter_lockout_time = 20;
 current_letter_lockout_time = 0;
 
+player = instance_find(obj_player, 0);
+text_x_offset = 10;
+text_y_offset = 20;
+letter_to_transmit_to_player = noone;
+
 // Create the morse code letter dictionary
 global.morse_dictionary = ds_map_create();
 ds_map_add(global.morse_dictionary, "01", "A");

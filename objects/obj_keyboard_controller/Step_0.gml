@@ -40,7 +40,7 @@ if (current_time_to_live <= 0) {
 	current_time_to_live = 0;
 	letter = recognize_letter(message_queue);
 	recalculate_string = true;
-} else {
+} else if (current_key_press_steps == 0) {
 	current_time_to_live -= 1;
 }
 
@@ -48,6 +48,10 @@ if (current_time_to_live <= 0) {
 if (current_letter_lockout_time > 0) {
 	// We are currently displaying a letter, so we just keep that on screen for a while.
 	current_letter_lockout_time -= 1;
+	
+	if (current_letter_lockout_time == 0) {
+		ds_queue_enqueue(player.transmission_queue, letter_to_transmit_to_player);
+	}
 } else if (recalculate_string) {
 	current_letter_lockout_time = 0;
 	
@@ -57,6 +61,7 @@ if (current_letter_lockout_time > 0) {
 		display_string += " ";
 		display_string += letter;
 		current_letter_lockout_time = default_letter_lockout_time;
+		letter_to_transmit_to_player = letter;
 	} else {
 		// No letter this time. Display everything on the queue.
 		var message_queue_copy = ds_queue_create();
@@ -78,5 +83,6 @@ if (current_letter_lockout_time > 0) {
 	}
 }
 
-
-
+// Set the position of the text relative to the player
+text_x = player.x - text_x_offset;
+text_y = player.y - text_y_offset;

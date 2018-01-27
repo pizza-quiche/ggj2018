@@ -12,9 +12,11 @@ if (!ds_queue_empty(transmission_queue)) {
 			break;
 		case left:
 			new_x = x - step_x;
+			sprite_index = spr_player_walk_left;
 			break;
 		case right:
 			new_x = x + step_x;
+			sprite_index = spr_player_walk_right;
 			break;
 	}
 	

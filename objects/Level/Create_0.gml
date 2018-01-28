@@ -18,6 +18,9 @@ var maxDistanceY =0;
 var distance =0
 var maxDistance = 0;
 
+num_enemies_to_spawn = 2;
+var num_enemies_spawned = 0;
+
 repeat(150)
 {
 	if(chance(20)){
@@ -41,6 +44,17 @@ repeat(150)
 		maxDistanceY = y;
 	}
 	
+	if (num_enemies_spawned < num_enemies_to_spawn) {
+		// We need to spawn some enemies
+		if (distance > 3*global.TILE_SIZE) {
+			// This might be a good place to spawn an enemy
+			if (chance(10)) {
+				// 10 percent chance to spawn an enemy here 
+				instance_create_layer(x, y, "Player", obj_enemy);
+				num_enemies_spawned ++;
+			}
+		}
+	}
 }
 
 

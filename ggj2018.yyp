@@ -39,6 +39,25 @@
     },
     "resources": [
         {
+            "Key": "00a98b37-5c99-43ad-8e9e-83559f10dd58",
+            "Value": {
+                "id": "1ce7ba30-e54b-4d91-9f94-09049b763484",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_enemy\/obj_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "046310b8-341f-431e-acf1-620b6851f700",
             "Value": {
                 "id": "148385e0-45c1-4775-9cf8-ac8199037c01",
@@ -112,6 +131,25 @@
                 ],
                 "resourcePath": "views\/12bc5082-4112-4ff0-87a6-bedc65e137b6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1446f990-de19-4a26-a84f-332706425223",
+            "Value": {
+                "id": "e981d470-a732-4275-bf75-40b40f7abdbe",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_enemy_walk_left\/spr_enemy_walk_left.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -286,6 +324,25 @@
             }
         },
         {
+            "Key": "495ea31d-1522-4fdc-a7e6-912d372e5c1b",
+            "Value": {
+                "id": "6b2240dd-c60f-448a-8233-d02f2edb6baa",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_enemy_idle\/spr_enemy_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4e59b48c-4eb9-47fc-998e-7142cbe6c52f",
             "Value": {
                 "id": "a548a738-6807-4967-a72c-fd5f651f8d17",
@@ -396,6 +453,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/spr_player_idle\/spr_player_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8a07ef05-a4ef-484c-af29-74a4a5434569",
+            "Value": {
+                "id": "42ac8767-1c02-40ea-a2df-a1c5b17b5f60",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_enemy_walk_right\/spr_enemy_walk_right.yy",
                 "resourceType": "GMSprite"
             }
         },

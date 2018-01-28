@@ -23,3 +23,7 @@ konami_code_index = 0;
 konami_code_win_index = ds_list_size(konami_code);
 
 keyboard_controller = instance_create_layer(x, y, "MorseCode", obj_keyboard_controller);
+
+dead = false;
+
+sprite_index = spr_player_teleport_in;

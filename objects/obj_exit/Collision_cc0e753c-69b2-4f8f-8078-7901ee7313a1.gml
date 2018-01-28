@@ -3,7 +3,7 @@
 global.LEVEL_NUM++
 
 with(other) {
-	sprite_index = spr_player_initial_spawn;
+	sprite_index = spr_player_teleport_out;
 }
 
 

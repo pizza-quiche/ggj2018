@@ -6,7 +6,7 @@ global.LEVEL_NUM = 0;
 
 for (var i =1; i < room_width div global.TILE_SIZE;i++)
 {
-	for(var j = 0; j < room_height div global.TILE_SIZE;j++)
+	for(var j = 1; j < room_height div global.TILE_SIZE;j++)
 	{
 		instance_create_layer(i*global.TILE_SIZE, j*global.TILE_SIZE,"Walls",oWall);
 	}
@@ -22,9 +22,9 @@ var maxDistance = 0;
 num_enemies_to_spawn = 2;
 var num_enemies_spawned = 0;
 
-repeat(10)
+repeat(10000)
 {
-	if(chance(20)){
+	if(chance(100)){
 	dir = choose(0,1,2,3)*90;
 	}
 	
@@ -45,8 +45,10 @@ repeat(10)
 		maxDistanceX = x;
 		maxDistanceY = y;
 	}
+	
+	
 }
 
 
-instance_create_layer(10,10,"Player", obj_player);
+instance_create_layer(0,global.TILE_SIZE,"Player", obj_player);
 instance_create_layer(maxDistanceX, maxDistanceY,"Exit", obj_exit);

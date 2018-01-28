@@ -1,28 +1,18 @@
 {
-    "id": "4a64e3ff-f3e2-4823-93b1-c70c1be5c071",
+    "id": "7fee9f04-e051-40c5-a8fe-cfd0a51020bd",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "Level1",
     "eventList": [
         {
-            "id": "dff91596-f5e2-48b1-9582-42b79786df2d",
+            "id": "e02424e4-6761-4d49-92dc-f6ee081f4dcc",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "4a64e3ff-f3e2-4823-93b1-c70c1be5c071"
-        },
-        {
-            "id": "1fe54a97-0c06-401e-9965-22993e490b64",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 13,
-            "eventtype": 9,
-            "m_owner": "4a64e3ff-f3e2-4823-93b1-c70c1be5c071"
+            "m_owner": "7fee9f04-e051-40c5-a8fe-cfd0a51020bd"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

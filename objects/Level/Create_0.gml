@@ -60,5 +60,5 @@ repeat(200)
 }
 
 
-instance_create_layer(10,10,"Player", obj_player);
+instance_create_layer(0,128,"Player", obj_player);
 instance_create_layer(maxDistanceX, maxDistanceY,"Exit", obj_exit);

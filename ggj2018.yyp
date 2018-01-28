@@ -172,9 +172,9 @@
             }
         },
         {
-            "Key": "31e1bc1c-0c05-4401-b98f-9f5677a35d64",
+            "Key": "2d2f7d4e-6a70-4e12-bf8e-4296262a152c",
             "Value": {
-                "id": "5d440887-a3a8-4943-b0cd-794d36db8610",
+                "id": "26225094-9d44-476e-a72a-6aa35a837a3e",
                 "modelName": "GMResourceInfo",
                 "mvc": "1.0",
                 "configDeltaFiles": [
@@ -186,7 +186,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\/player\/player.yy",
+                "resourcePath": "objects\/obj_exit\/obj_exit.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -457,6 +457,25 @@
             }
         },
         {
+            "Key": "b13c2361-f167-4c84-90bb-c36fed96e6b4",
+            "Value": {
+                "id": "a2ce86fb-63d8-450e-a7f8-c746f367bfb4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "tilesets\/tileset0\/tileset0.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "b37bb8c0-fee1-42f3-a8af-f99161c5d944",
             "Value": {
                 "id": "c770166b-35d2-41fd-bbbc-d159bf4e99fe",
@@ -606,6 +625,25 @@
                 ],
                 "resourcePath": "objects\/obj_player\/obj_player.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e2d9a8d4-4f11-4e45-a3ad-bdc59e6809eb",
+            "Value": {
+                "id": "8a1914ec-88b6-4435-8bc1-ac094cd0093d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprite8\/sprite8.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

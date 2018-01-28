@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-        
+
     ],
     "option_ecma": false,
     "parentProject": {
@@ -25,7 +25,7 @@
             }
         ],
         "hiddenResources": [
-            
+
         ],
         "projectPath": "${base_project}"
     },
@@ -52,6 +52,25 @@
                 "id": "b3e76826-8158-4f76-ae45-a1634a4188e2",
                 "resourcePath": "objects\\gameOverController\\gameOverController.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0483ba3e-923c-4cb6-94f7-569e1ba5f58e",
+            "Value": {
+                "id": "fff22cc2-7c06-42d9-82e8-19f45cace4ab",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+
+                ],
+                "configDeltas": [
+
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_player_initial_spawn\/spr_player_initial_spawn.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -412,6 +431,25 @@
                 "id": "b5949e4e-2ba5-4701-9bfb-eb5c86639141",
                 "resourcePath": "rooms\/room01\/room01.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "f46eb55c-485b-4ff3-b64d-ec84e4707af3",
+            "Value": {
+                "id": "d281830f-c55d-42d1-bb89-05a6bb002ec3",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+
+                ],
+                "configDeltas": [
+
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_player_death\/spr_player_death.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

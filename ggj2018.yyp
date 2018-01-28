@@ -571,6 +571,25 @@
             }
         },
         {
+            "Key": "61cbe84c-995b-46a3-b10a-c529baa0e38a",
+            "Value": {
+                "id": "910c6c5f-7196-4c8f-95ad-c0d7324b9b6c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_pause\/spr_pause.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "65bec668-f5e0-4240-b030-8502b60d4a6a",
             "Value": {
                 "id": "ed66b5b1-56bc-4cbb-83af-4356b625c6f4",
@@ -834,6 +853,25 @@
                 ],
                 "resourcePath": "options\/windows\/options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "dc98856c-0928-4176-b611-ee458f9e49bc",
+            "Value": {
+                "id": "56af0a17-ff9e-4c03-acfa-5712898930b2",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_pause\/obj_pause.yy",
+                "resourceType": "GMObject"
             }
         },
         {

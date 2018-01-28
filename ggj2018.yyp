@@ -91,7 +91,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/spr_player_initial_spawn\/spr_player_initial_spawn.yy",
+                "resourcePath": "sprites\/spr_player_teleport_in\/spr_player_teleport_in.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1003,7 +1003,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/spr_player_death\/spr_player_death.yy",
+                "resourcePath": "sprites\/spr_player_teleport_out\/spr_player_teleport_out.yy",
                 "resourceType": "GMSprite"
             }
         },

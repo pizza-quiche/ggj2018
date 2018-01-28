@@ -2,7 +2,7 @@
     "id": "f46eb55c-485b-4ff3-b64d-ec84e4707af3",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_player_death",
+    "name": "spr_player_teleport_out",
     "For3D": false,
     "HTile": false,
     "VTile": false,

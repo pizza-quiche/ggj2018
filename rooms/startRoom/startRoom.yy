@@ -13,7 +13,7 @@
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Player",
+            "name": "MorseCode",
             "id": "1107e65f-df89-4f8d-a5bc-6c6747e5be1f",
             "depth": 0,
             "grid_x": 128,

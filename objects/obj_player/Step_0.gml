@@ -10,6 +10,7 @@ if (!ds_queue_empty(transmission_queue)) {
 			break;
 		case down:
 			new_y = y + step_y;
+			sprite_index = spr_player_walk_down;
 			break;
 		case left:
 			new_x = x - step_x;

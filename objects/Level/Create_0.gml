@@ -22,7 +22,7 @@ var maxDistance = 0;
 num_enemies_to_spawn = 2;
 var num_enemies_spawned = 0;
 
-repeat(150)
+repeat(200)
 {
 	if(chance(20)){
 	dir = choose(0,1,2,3)*90;

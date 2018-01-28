@@ -18,11 +18,14 @@ if(time_since_last_move > min_wait_time) {
 		} else {
 			new_y = y + choose(1, -1)*global.TILE_SIZE;
 		}
-
-		if (position_empty(new_x, new_y)) {
+		var object = instance_place(new_x, new_y, oWall);
+		var exitObject = instance_place(new_x, new_y, obj_exit);
+		if (!object && !exitObject) {
 			x = new_x;
 			y = new_y;
-		
+			
+			x = clamp(x, 0 + global.TILE_SIZE, room_width-global.TILE_SIZE*2);
+			y = clamp(y, 0+ global.TILE_SIZE, room_height -global.TILE_SIZE*2);
 			time_since_last_move = 0;
 		}
 	}

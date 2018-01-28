@@ -1,4 +1,4 @@
-/*
+
 randomize();
 
 global.TILE_SIZE=128;
@@ -22,7 +22,7 @@ var maxDistance = 0;
 num_enemies_to_spawn = 2;
 var num_enemies_spawned = 0;
 
-repeat(150)
+repeat(10)
 {
 	if(chance(20)){
 	dir = choose(0,1,2,3)*90;
@@ -45,20 +45,8 @@ repeat(150)
 		maxDistanceX = x;
 		maxDistanceY = y;
 	}
-	
-	if (num_enemies_spawned < num_enemies_to_spawn) {
-		// We need to spawn some enemies
-		if (distance > 3*global.TILE_SIZE) {
-			// This might be a good place to spawn an enemy
-			if (chance(10)) {
-				// 10 percent chance to spawn an enemy here 
-				instance_create_layer(x, y, "Player", obj_enemy);
-				num_enemies_spawned ++;
-			}
-		}
-	}
 }
 
-*/
+
 instance_create_layer(10,10,"Player", obj_player);
-//instance_create_layer(maxDistanceX, maxDistanceY,"Exit", obj_exit);
+instance_create_layer(maxDistanceX, maxDistanceY,"Exit", obj_exit);

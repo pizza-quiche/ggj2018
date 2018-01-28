@@ -5,7 +5,8 @@ if (sprite_index == spr_player_teleport_out) {
 		instance_destroy(id);
 		room_goto(gameOver);
 	} else {
-		// That means we just teleported. 
+		// That means we just teleported.
+        audio_play_sound(teleport, 1, false);
 		instance_destroy(id);
 		room_goto(room0);
 	}

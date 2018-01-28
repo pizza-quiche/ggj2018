@@ -6,18 +6,22 @@ if (!ds_queue_empty(transmission_queue)) {
 	switch (letter) {
 		case up:
 			new_y = y - step_y;
+			audio_play_sound(footSteps,0,false);
 			sprite_index = spr_player_walk_up;
 			break;
 		case down:
 			new_y = y + step_y;
+			audio_play_sound(footSteps,0,false);
 			sprite_index = spr_player_walk_down;
 			break;
 		case left:
 			new_x = x - step_x;
+			audio_play_sound(footSteps,0,false);
 			sprite_index = spr_player_walk_left;
 			break;
 		case right:
 			new_x = x + step_x;
+			audio_play_sound(footSteps,0,false);
 			sprite_index = spr_player_walk_right;
 			break;
 	}

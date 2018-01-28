@@ -21,10 +21,13 @@ if (!ds_queue_empty(transmission_queue)) {
 			sprite_index = spr_player_walk_right;
 			break;
 	}
-	
-	if (position_empty(new_x, new_y)) {
-		x = new_x;
-		y = new_y;
+	var object = instance_place(new_x, new_y, oWall);
+	if (!object) {
+			x = new_x;
+			y = new_y;
+			
+			x = clamp(x, 0 + global.TILE_SIZE, room_width-global.TILE_SIZE*2);
+			y = clamp(y, 0+ global.TILE_SIZE, room_height -global.TILE_SIZE*2);
 	} else {
 		// Maybe play some animation where it tries to move but can't?
 	}

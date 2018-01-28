@@ -32,6 +32,12 @@ if (message_bit_to_add > -1) {
 	if (ds_queue_size(message_queue) > message_queue_max_size) {
 		ds_queue_dequeue(message_queue);
 	}
+	
+	if (message_bit_to_add == 0) {
+		audio_play_sound(morseShort, 0, false);
+	} else {
+		audio_play_sound(morseLong, 0, false);
+	}
 }
 
 // If the time to live is at zero, destroy all the letters in the queue

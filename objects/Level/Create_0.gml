@@ -2,6 +2,7 @@
 randomize();
 
 global.TILE_SIZE=128;
+global.LEVEL_NUM = 0;
 
 for (var i =1; i < room_width div global.TILE_SIZE;i++)
 {
@@ -30,6 +31,7 @@ repeat(150)
 	var object = instance_place(x, y, oWall);
 	
 	instance_destroy(object);
+	
 	
 	x+= lengthdir_x(global.TILE_SIZE, dir);
 	y+= lengthdir_y(global.TILE_SIZE, dir);

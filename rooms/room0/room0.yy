@@ -16,8 +16,8 @@
             "name": "Player",
             "id": "f8c0043a-d789-4f24-9ee0-d4427b451a8a",
             "depth": 0,
-            "grid_x": 32,
-            "grid_y": 32,
+            "grid_x": 128,
+            "grid_y": 128,
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
             "inheritLayerDepth": false,
@@ -25,7 +25,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_36B0BD72","id": "b37b0a51-cbf4-4799-bdf7-5d05b9581e12","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_36B0BD72","objId": "47fade68-04a5-42db-8c58-cb40dfc04677","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 864,"y": 448}
+{"name": "inst_36B0BD72","id": "b37b0a51-cbf4-4799-bdf7-5d05b9581e12","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_36B0BD72","objId": "47fade68-04a5-42db-8c58-cb40dfc04677","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 128,"y": 128}
             ],
             "layers": [
 
@@ -90,13 +90,58 @@
             "visible": true
         },
         {
+            "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Tiles_1",
+            "id": "68488bb1-ff12-492a-89f7-0f8f0c991105",
+            "depth": 300,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRTileLayer",
+            "prev_tileheight": 128,
+            "prev_tilewidth": 128,
+            "mvc": "1.0",
+            "tiles": {
+                "SerialiseData": null,
+                "SerialiseHeight": 10,
+                "SerialiseWidth": 10,
+                "TileSerialiseData": [
+                    13,13,13,13,13,13,13,13,13,13,
+                    13,13,13,13,13,13,13,13,13,13,
+                    13,13,13,13,13,13,13,13,13,13,
+                    13,13,13,13,13,13,13,13,13,13,
+                    13,13,13,13,13,13,13,13,13,13,
+                    13,13,13,13,13,13,13,13,13,13,
+                    13,13,13,13,13,13,13,13,13,13,
+                    13,13,13,13,13,13,13,13,13,13,
+                    13,13,13,13,13,13,13,13,13,13,
+                    13,13,13,13,13,13,13,13,13,13
+                ]
+            },
+            "tilesetId": "220a2c78-257f-4925-b4c6-01051228f6c7",
+            "userdefined_depth": false,
+            "visible": true,
+            "x": 0,
+            "y": 0
+        },
+        {
             "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Background",
             "id": "450f79b7-67b1-40ae-a6f4-e331b444d299",
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4278190080 },
-            "depth": 300,
+            "depth": 400,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,

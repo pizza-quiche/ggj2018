@@ -6,6 +6,7 @@ if(time_since_last_move > min_wait_time) {
 		var new_x = x;
 		var new_y = y;
 		
+		
 		if (choose(1, -1) > 0) {
 			if (choose(1, -1) > 0) {
 				new_x = x + global.TILE_SIZE;

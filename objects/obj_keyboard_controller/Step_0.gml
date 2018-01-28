@@ -68,6 +68,8 @@ if (current_letter_lockout_time > 0) {
 		display_string += letter;
 		current_letter_lockout_time = default_letter_lockout_time;
 		letter_to_transmit_to_player = letter;
+		
+		audio_play_sound(letterSound, 0, false);
 	} else {
 		// No letter this time. Display everything on the queue.
 		var message_queue_copy = ds_queue_create();

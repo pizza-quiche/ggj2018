@@ -1,4 +1,5 @@
-
+audio_stop_sound(music_start)
+audio_play_sound(levelBackground, 0, true)
 randomize();
 
 global.TILE_SIZE=128;

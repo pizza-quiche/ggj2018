@@ -46,6 +46,6 @@ if (!ds_queue_empty(transmission_queue)) {
 
 if (konami_code_index == konami_code_win_index) {
 	konami_code_index = 0;
-	
+	audio_play_sound(konamiEasterEgg, 0, false)
 	image_blend = make_colour_hsv(random(255), 255, 255);
 }

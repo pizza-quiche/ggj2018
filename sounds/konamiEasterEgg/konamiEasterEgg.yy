@@ -1,14 +1,14 @@
 {
-    "id": "f687b3c7-3e90-4df5-8cf2-2ae1a71f64d0",
+    "id": "19ec6644-4520-4d88-918a-bee6a21cd585",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "levelBackground",
+    "name": "konamiEasterEgg",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
     "kind": 3,
     "preload": false,
-    "sampleRate": 48000,
+    "sampleRate": 44100,
     "type": 1,
-    "volume": 0.17
+    "volume": 1
 }

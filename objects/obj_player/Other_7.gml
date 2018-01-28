@@ -3,7 +3,8 @@ if (sprite_index == spr_player_death) {
 	instance_destroy(id);
 	room_goto(gameOver);
 } else if (sprite_index == spr_player_initial_spawn) {
-	// That means we just teleported. 
+	// That means we just teleported.
+	audio_play_sound(teleport, 1, false);
 	instance_destroy(id);
 	room_goto(room0);
 }else {

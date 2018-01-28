@@ -1,5 +1,4 @@
-var object = instance_place(x, y, obj_player);
-	
-	instance_destroy(object);
 
-room_goto(gameOver);
+with(other) {
+	sprite_index = spr_player_death;
+}
